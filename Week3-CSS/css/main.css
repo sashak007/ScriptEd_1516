@@ -1,0 +1,49 @@
+body{
+  background-image: url('http://www.envirostudies.org/pics/body_bg.jpg');
+  padding-top: 50px;
+}
+
+h1{
+  color:#f8f8f8;
+  text-align: center;
+}
+
+div#container{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  overflow: auto;
+  background-image: url('http://www.envirostudies.org/pics/wrapper-bg.jpg');
+}
+
+/** Centering image **/
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.content{
+  background-color: yellow;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+div#news h2{
+  color: purple;
+}
+
+/** Remove default list style **/
+ul{
+  list-style-type: none;
+  padding: 0px;
+}
+
+div#alerts h2{
+  color: red;
+}
+div#events h2{
+  color: blue;
+}
